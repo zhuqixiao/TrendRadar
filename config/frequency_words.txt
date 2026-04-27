@@ -148,14 +148,118 @@
 # ───────────────────────────────────────────────────────────────
 
 [WORD_GROUPS]
-[产业]
-芯片
-半导体
-新能源
-机器人
+[消费与商业]
+新消费
+品牌出海
+跨境电商
+即时零售
+折扣零售
+pdd
+拼多多
+temu
+SHEIN
+AliExpress
+TikTok Shop
+
+[文娱内容]
+短剧
+游戏出海
+AIGC内容
+
+[生物科技]
+创新药
+GLP-1
+医疗器械
+AI制药
+
+[宏观/破壁]
+监管
+政策
+融资
+IPO
+出海
+
+[新能源]
+比亚迪
+蔚来
+小鹏
+小米
+理想
+极狐
+华为
+特斯拉
+
+[机器人/自动驾驶]
+人形机器人
+具身智能
 自动驾驶
-航天
-生物医药
-量子计算
-脑机接口
-基因编辑
+端到端
+智驾
+
+[AI/大模型]
+AI
+大模型
+ChatGPT
+Claude
+DeepSeek
+发布
+开源
+模型
+!广告
+!课程
+
+/深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
+
+/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
+
+/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆
+
+/宇树|王兴兴|\bUnitree\b/ => 宇树机器人
+
+/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
+
+/字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动
+
+/腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
+
+/qwen|minimax|glm/ => 国产开源模型
+
+/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
+/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
+/陈立武|Xeon|至强|酷睿|\bIntel\b|\bLip-Bu Tan\b/ => Intel
+
+/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
+/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
+/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
+
+/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
+/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+
+[东亚]
+日本
+朝鲜
+韩国
+
+[北美]
+美国
+加拿大
+
+[西欧]
+法国
+英国
+
+/俄罗斯|俄国/ => 俄罗斯
+
+印度
+
+[芯片]
+芯片
+光刻机
+半导体
+
+/月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
+
+# 前沿科技
+量子
+脑机
+基因
